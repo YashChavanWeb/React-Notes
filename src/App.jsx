@@ -1,12 +1,13 @@
 import React from 'react'
 // import { useState } from 'react'
-import UseState from './components/UseState'
-import UseEffect from './components/UseEffect'
-import UseContext from './components/useContext'
-import UseRef from './components/UseRef'
-import UseReducer from './components/useReducer'
-import UseMemo from './components/UseMemo'
-import UseCallback from './components/UseCallback'
+import UseState from './hooks/UseState'
+import UseEffect from './hooks/UseEffect'
+import UseContext from './hooks/useContext'
+import UseRef from './hooks/UseRef'
+import UseReducer from './hooks/useReducer'
+import UseMemo from './hooks/UseMemo'
+import UseCallback from './hooks/UseCallback'
+import CustomHooks from './hooks/CustomHooks'
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
       {/* <UseReducer /> */}
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
+      <CustomHooks />
 
 
 
